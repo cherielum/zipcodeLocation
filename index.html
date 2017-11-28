@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Location Finder</title>
+
+    <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+        <a class= "active3" href= "https://github.com/cherielum" style ="float: right; margin: 10px"> GitHub </a>
+		<a class= "active2" href= "mailto: cherie.lum2@gmail.com" style ="float: right; margin: 10px">Contact </a>
+		<a class= "active1" href= "http://88-sites.surge.sh/88days-homepage/homepage.html" style ="float: right; margin: 10px" > Home </a>
+        <br /> <br/>
+
+
+    <section class="hero hero-body is-dark container">
+        <h1 class="title">US Location Information</h1>
+        <h2 class = "subtitle"> Enter a zipcode to get the location information</h2>
+
+        <form id="zipForm">
+                <div class="field">
+                        <div class="control has-icons-left has-icons-right">
+                          <input class="input zip is-large" type="text" placeholder="Enter Zipcode">
+                          <span class="icon is-small is-left">
+                            <i class="fa fa-map-pin"></i>
+                          </span>
+                          <span class="icon is-small is-right icon-check">
+                            <i class="fa fa-check"></i>
+                          </span>
+                          <span class="icon is-small is-right icon-remove icon-check">
+                                <i class="fa fa-remove"></i>
+                              </span>
+                        </div>
+                      </div>
+        </form>
+    </section>
+    <br> 
+    <div class="container">
+        <id class="output"></id>
+    </div>
+
+    <script src = "index.js"></script>
+    
+</body>
+</html>
